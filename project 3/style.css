@@ -1,0 +1,66 @@
+html,body{
+height: 100%;
+margin:0;
+font-size: 16px;
+font-family:"Lato", sans-serif;
+font-weight: 400;
+line-height: 1.8em;
+color: #666;
+}
+.pimg1{
+    background-image: url("https://images.unsplash.com/photo-1586521995568-39abaa0c2311?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url("https://images.unsplash.com/photo-1667229224351-a3719b5e7ef0?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    min-height:400px;
+}
+.pimg3{
+    background-image: url("https://images.unsplash.com/photo-1675371788315-60fa0ef48267?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    min-height: 400px;}
+    
+.pimg4{background-image: url("https://media.istockphoto.com/id/844226534/photo/leaf-background.jpg?s=2048x2048&w=is&k=20&c=SuFwCpxv6ALde15whmnrtQ42SpuC09aLLwUI2pE5uMM=");
+    min-height: 400px;
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+.pimg1,.pimg2,.pimg3,.pimg4{
+     position: relative ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    /* background-color: black; */
+}
+.textBg{
+    background-color:  #313534;
+    color: #fff;
+    padding: 20px;
+}
+.section{
+padding: 50px 80px;
+text-align: center;
+
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section-dark{
+background-color: #282e34;
+color:#ddd;
+}
